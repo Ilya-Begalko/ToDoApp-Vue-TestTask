@@ -1,7 +1,8 @@
 <script setup>
 import Header from './components/Header.vue';
 import AddBtn from './components/AddBtn.vue';
-import SearchBar from './components/SearchBar.vue'
+import SearchBar from './components/SearchBar.vue';
+import SortPicker from './components/SortPicker.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import SearchBar from './components/SearchBar.vue'
     </div>
     <div class="tool--bar">
       <SearchBar></SearchBar>
+      <SortPicker></SortPicker>
     </div>
   </header>
 

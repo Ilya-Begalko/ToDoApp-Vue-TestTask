@@ -19,6 +19,7 @@
             flex-direction: row;
         }
         .search-bar {
+            font-family: 'Vela Sans';
             border: 0;
             margin-left: 16px;
             width: 250px;
