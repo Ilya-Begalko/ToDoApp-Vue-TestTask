@@ -2,10 +2,11 @@
     import { useStore } from 'vuex';
     
     const store = useStore();
+    const onClick = () => {store.commit('openNewTodo')};
     </script>
     
     <template>
-        <button class="btn-add-todo">
+        <button class="btn-add-todo" @click="onClick">
             <span>
                 <img src="../assets/plus_btn.svg">
             </span>
