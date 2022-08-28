@@ -56,6 +56,7 @@ const updateSortByDir = () => {
 }
 
 .sort-picker_direction {
+    margin-left: 5px;
     border: 0;
     background-color: inherit;
     padding-left: 0;
