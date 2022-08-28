@@ -1,11 +1,13 @@
 <script setup>
 import Header from './components/Header.vue';
+import AddBtn from './components/AddBtn.vue';
 </script>
 
 <template>
   <header>
     <div class="header--top">
       <Header></Header>
+      <AddBtn></AddBtn>
     </div>
   </header>
 
